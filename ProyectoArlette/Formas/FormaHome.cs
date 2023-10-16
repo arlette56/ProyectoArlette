@@ -71,6 +71,20 @@ namespace ProyectoArlette.Formas
             FormaCalculadora forma = new FormaCalculadora();
             forma.Show();
         }
+
+        private void pruebaMatematicaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormaPrueba form = new FormaPrueba();
+            form.Show();
+        }
+
+        private void pruebaMatematicaToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            FormaPrueba form = new FormaPrueba();
+            form.Show();
+        }
     }
-    }
+}
+
+
 

@@ -44,6 +44,7 @@ namespace ProyectoArlette.Formas
             this.calculaTuGrasaCorporalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.linksToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pruebaMatematicaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -59,7 +60,7 @@ namespace ProyectoArlette.Formas
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(3, 1, 0, 1);
-            this.menuStrip1.Size = new System.Drawing.Size(927, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(802, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -93,7 +94,8 @@ namespace ProyectoArlette.Formas
             this.fabricaDeTalaveraToolStripMenuItem,
             this.ecuacionDeSegundoGradoToolStripMenuItem,
             this.visorDeImagenesToolStripMenuItem,
-            this.calculaTuGrasaCorporalToolStripMenuItem});
+            this.calculaTuGrasaCorporalToolStripMenuItem,
+            this.pruebaMatematicaToolStripMenuItem});
             this.ejercisiosToolStripMenuItem.Name = "ejercisiosToolStripMenuItem";
             this.ejercisiosToolStripMenuItem.Size = new System.Drawing.Size(67, 22);
             this.ejercisiosToolStripMenuItem.Text = "Ejercisios";
@@ -160,16 +162,23 @@ namespace ProyectoArlette.Formas
             this.linksToolStripMenuItem.Size = new System.Drawing.Size(101, 22);
             this.linksToolStripMenuItem.Text = "Links";
             // 
+            // pruebaMatematicaToolStripMenuItem
+            // 
+            this.pruebaMatematicaToolStripMenuItem.Name = "pruebaMatematicaToolStripMenuItem";
+            this.pruebaMatematicaToolStripMenuItem.Size = new System.Drawing.Size(221, 22);
+            this.pruebaMatematicaToolStripMenuItem.Text = "Prueba matematica";
+            this.pruebaMatematicaToolStripMenuItem.Click += new System.EventHandler(this.pruebaMatematicaToolStripMenuItem_Click_1);
+            // 
             // FormaHome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(927, 389);
+            this.ClientSize = new System.Drawing.Size(802, 389);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "FormaHome";
             this.Text = "FormaHome";
             this.Load += new System.EventHandler(this.FormaHome_Load);
@@ -196,5 +205,6 @@ namespace ProyectoArlette.Formas
         private System.Windows.Forms.ToolStripMenuItem linksToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem visorDeImagenesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem calculaTuGrasaCorporalToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem pruebaMatematicaToolStripMenuItem;
     }
 }
